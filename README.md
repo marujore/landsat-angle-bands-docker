@@ -23,7 +23,7 @@ Landsat-8 Angle Tool.
 To process a Landsat-8 scene (e.g. `LC08_L2SP_222081_20190502_20200829_02_T1`) run
 
 ```bash
-$ docker run --rm -v /path/to/input/:/mnt/input-dir:rw l8ang LC08_L2SP_222081_20190502_20200829_02_T1
+$ docker run --rm -v /path/to/input/:/mnt/input-dir:rw l8angs LC08_L2SP_222081_20190502_20200829_02_T1
 ```
 
 Results are written on input-dir
