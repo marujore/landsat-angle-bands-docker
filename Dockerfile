@@ -1,8 +1,6 @@
 FROM osgeo/gdal
 LABEL maintainer="Rennan Marujo <rennanmarujo@gmail.com>"
 
-USER root
-
 RUN apt-get update -y && apt-get install -y \
     make \
     gcc && \
